@@ -217,19 +217,19 @@ astro_patch.smd(
           (cmd) => cmd.pattern === input.split(" ")[0].toLowerCase()
         );
         if (foundCommand) {
-          commandDetails.push("*🔉Command:* " + foundCommand.pattern);
+          commandDetails.push("*🌟Command:* " + foundCommand.pattern);
           if (foundCommand.category) {
-            commandDetails.push("*💁Category:* " + foundCommand.category);
+            commandDetails.push("*🌟Category:* " + foundCommand.category);
           }
           if (foundCommand.alias && foundCommand.alias[0]) {
-            commandDetails.push("*💁Alias:* " + foundCommand.alias.join(", "));
+            commandDetails.push("*🌟Alias:* " + foundCommand.alias.join(", "));
           }
           if (foundCommand.desc) {
-            commandDetails.push("*💁Description:* " + foundCommand.desc);
+            commandDetails.push("*🌟Description:* " + foundCommand.desc);
           }
           if (foundCommand.use) {
             commandDetails.push(
-              "*〽️Usage:*\n ```" +
+              "*👑Usage:*\n ```" +
                 prefix +
                 foundCommand.pattern +
                 " " +
@@ -263,33 +263,33 @@ astro_patch.smd(
         Config.menu.trim().startsWith("1") ||
         Config.menu.toLowerCase().includes("menu1")
       ) {
-        menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━━┈⊷";
-        menuThemeCommandPrefix = "┃☆│";
-        menuThemeFooter = "┃☆╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
+        menuThemeHeader = "╭━🔹🔸◀🔴*" + Config.botname + "* 🔴▶🔹🔸━━┈⊷";
+        menuThemeCommandPrefix = "┃🌟│";
+        menuThemeFooter = "┃🌟╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
         menuThemeCategoryHeader = "╭─────────────┈⊷\n│「";
         menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
-        menuThemeCommandPrefix = "││◦☆";
+        menuThemeCommandPrefix = "││◦🌟";
         menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────┈⊷";
       } else if (
         menuThemeType === 2 ||
         Config.menu.trim().startsWith("2") ||
         Config.menu.toLowerCase().includes("menu2")
       ) {
-        menuThemeHeader = "╭═══ *" + Config.botname + "* ═══⊷\n┃☆╭──────────────";
-        menuThemeCommandPrefix = "┃☆│";
-        menuThemeFooter = "┃☆╰───────────────\n╰═════════════════⊷";
-        menuThemeCategoryHeader = "╭─❏";
-        menuThemeCategoryFooter = "❏";
-        menuThemeCommandPrefix = "┃☆│";
-        menuThemeCommandFooter = "┃☆╰───────────────\n╰═════════════════⊷";
+        menuThemeHeader = "╭═🔸◀🔴 *" + Config.botname + "* 🔴▶🔸🔹═⊷\n┃🌟╭──────────────";
+        menuThemeCommandPrefix = "┃🌟│";
+        menuThemeFooter = "┃🌟╰───────────────\n╰════════════════🔸▶";
+        menuThemeCategoryHeader = "╭─◾";
+        menuThemeCategoryFooter = "◾";
+        menuThemeCommandPrefix = "┃🌟│";
+        menuThemeCommandFooter = "┃🌟╰───────────────\n╰════════════════🔸▶";
       } else {
-        menuThemeHeader = "╭〘  " + Config.botname + "  〙";
+        menuThemeHeader = "╭〘🔴 " + Config.botname + " 🔴 〙";
         menuThemeCommandPrefix = "│ │";
-        menuThemeFooter = "╰═══════════════⊷";
-        menuThemeCategoryHeader = "╭─❍";
-        menuThemeCategoryFooter = "══⊷❍";
+        menuThemeFooter = "╰═══════════════🔸▶";
+        menuThemeCategoryHeader = "╭─◾";
+        menuThemeCategoryFooter = "══⊷◾";
         menuThemeCommandPrefix = "│";
-        menuThemeCommandFooter = "╰════════════─⊷";
+        menuThemeCommandFooter = "╰════════════🔸▶";
       }
 
       const categorizedCommands = {};
@@ -309,16 +309,16 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
 ${menuThemeHeader}
-${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
-${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
-${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
-${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
+${menuThemeCommandPrefix} *👑ᴏᴡɴᴇʀ:* ${Config.ownername}
+${menuThemeCommandPrefix} *👑ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
+${menuThemeCommandPrefix} *👑ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
+${menuThemeCommandPrefix} *👑ᴛɪᴍᴇ:* ${currentTime}
+${menuThemeCommandPrefix} *👑ᴅᴀᴛᴇ:* ${currentDate}
+${menuThemeCommandPrefix} *👑ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
+${menuThemeCommandPrefix} *👑ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
+${menuThemeCommandPrefix} *🌞ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*𝚆𝙰𝚂𝙸-𝙼𝙳-𝚅2*
+*Mrsky-𝙼𝙳-𝚅2*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -370,23 +370,23 @@ smd(
   async (_0x22514a) => {
     try {
       let _0x20ed34 = (
-        "\n*➮ᴜᴘ ᴛɪᴍᴇ :* " +
+        "\n*🔴➮ᴜᴘ ᴛɪᴍᴇ :* " +
         runtime(process.uptime()) +
-        "\n*➮ᴛᴏᴅᴀʏ ɪs :* " +
+        "\n*👑➮ᴛᴏᴅᴀʏ ɪs :* " +
         _0x22514a.date +
-        "\n*➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
+        "\n*🌟➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
         _0x22514a.time +
-        "\n\n➮Fᴏᴜɴᴅᴇʀ- Itxxwasi Team\n➮Oᴡɴᴇʀ - " +
+        "\n\n🔴➮Fᴏᴜɴᴅᴇʀ- Itxxwasi Team\n➮Oᴡɴᴇʀ - " +
         Config.ownername +
-        "\n➮Nᴜᴍ - " +
+        "\n👑➮Nᴜᴍ - " +
         owner.split(",")[0] +
-        "\n➮Mᴇᴍᴏ - " +
+        "\n🔴➮Mᴇᴍᴏ - " +
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :* ᴡᴀsɪᴍᴅ-ᴠ2\n\n" +
+        "\n\n *🧑‍💻 :* Mrsky-ᴠ2\n\n" +
         readmore +
-        "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
+        "\n╭🔸◀🔴 *ALL MENU* 🔴▶\n│🌟 Lɪꜱᴛ\n│🌟 Cᴀᴛᴇɢᴏʀʏ\n│🌟 Hᴇʟᴘ\n│🌟 Aʟɪᴠᴇ\n│🌟 Uᴘᴛɪᴍᴇ\n│🌟 Wᴇᴀᴛʜᴇʀ\n│🌟 Lɪɴᴋ\n│🌟 Cᴘᴜ\n│🌟 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
       return await _0x22514a.bot.sendUi(_0x22514a.from, {
         caption: _0x20ed34,
@@ -536,7 +536,7 @@ astro_patch.smd(
   },
   async (context) => {
     const startTime = new Date().getTime();
-    const { key: messageKey } = await context.reply("*hmm...*");
+    const { key: messageKey } = await context.reply("*Mrsky Md here...*");
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
@@ -549,11 +549,11 @@ astro_patch.smd(
 );
 smd(
   {
-    pattern: "LIV",
+    pattern: "mrskybot",
     desc: "Shows system status with different designs.",
     category: "general",
     filename: __filename,
-    use: "LIV",
+    use: "mrskybot",
   },
   async (message, input) => {
     try {
@@ -646,7 +646,7 @@ smd(
       );
     } catch (error) {
       await message.error(
-        error + "\n\nCommand: LIV",
+        error + "\n\nCommand: mrskybot",
         error,
         "*Failed to show status.*"
       );
@@ -690,7 +690,7 @@ astro_patch.cmd({
     pattern: "list",
     desc: "list menu",
     category: "general",
-    react: "📄"
+    react: "🐦"
   }, async _0x1d5ddc => {
     try {
       const {
@@ -1287,7 +1287,7 @@ smd(
           let resultTest = await eval(
             "const a = async()=>{\n" + code + _0xd6a12a(456)
           );
-          await citel[_0xd6a12a(461)]("🍁");
+          await citel[_0xd6a12a(461)]("🐦");
           if (resultTest) {
             return await citel.reply(util[_0xd6a12a(470)](resultTest));
           }
