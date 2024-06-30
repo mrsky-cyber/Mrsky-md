@@ -1,16 +1,16 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Kingjux/Venocyber-md.git /root/Kingjux
+RUN git clone https://github.com/mrsky-cyber/mrsky-md.git /root/mrsky-cyber
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/Kingjux/node_modules
+RUN rm -rf /root/mrsky-cyber/node_modules
 
 # Install dependencies
-WORKDIR /root/Kingjux
+WORKDIR /root/mrsky-cyber
 RUN npm install
 
 # Add additional Steps To Run...
 EXPOSE 3000
 CMD ["npm","start" ]
-# IF YOU ARE MODIFYING THIS BOT DONT CHANGE THIS  RUN rm -rf /root/Kingjux/node_modules
+# IF YOU ARE MODIFYING THIS BOT DONT CHANGE THIS  RUN rm -rf /root/mrsky-cyber/node_modules
