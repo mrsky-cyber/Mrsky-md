@@ -1,6 +1,6 @@
 {
   "name": "Mrsky-md",
-  "description": "Simple WhatsApp Bot",
+  "description": "i am mrsky md whatsapp bot chuddy buddy built in Nodjs to make experience better if any problem. wa.me/255753033342",
   "logo": "https://github.com/mrsky-cyber/Mrsky-md/blob/main/lib/assets/logo.png?raw=true",
   "keywords": ["MRSKY-MD", "MRSKY", "MRSKY MD BOT","MRSKY MD","mrsky","mrskytech"],
   "success_url": "/",
@@ -52,7 +52,7 @@
     "MONGODB_URI": {
       "description": "mongodb_uri here",
       "required": true,
-      "value": "mongodb+srv://King-MdIsbot:King-MdIsbot@cluster0.hikjrg2.mongodb.net/?retryWrites=true&w=majority"
+      "value": ""
   },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
