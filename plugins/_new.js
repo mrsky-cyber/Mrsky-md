@@ -15,12 +15,12 @@ let {
   {
     pattern: "channel",
     desc: "To check ping",
-    react: "🗨️",
+    react: "👑",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `VENOCYBER 𝐓𝐄𝐂𝐇 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍E𝐋𝐄 𝐅𝐎𝐋𝐋𝐎𝐖 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊:* https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `MRSKY 𝐓𝐄𝐂𝐇 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍E𝐋𝐄 𝐅𝐎𝐋𝐋𝐎𝐖 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊:* https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -34,12 +34,12 @@ smd(
   {
     pattern: "support",
     desc: "To check ping",
-    react: "🗨️",
+    react: "🐦",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `VENOCYBER 𝐌𝐃 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN \n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `MRSKY 𝐌𝐃 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T \n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -68,8 +68,8 @@ smd(
      if (!_0x599777 || !_0x599777[0]) {
        return await _0x1cec94.reply("_No messages found!_");
      }
-     const _0x338160 = Object.entries(_0x5af784).map(([_0x4630e3, _0x3a7f93]) => "\t*" + (_0x4630e3?.split("\n").join(" ") || "unknown") + "*  ➪  _" + _0x3a7f93 + "_").join("\n");
-     var _0x370694 = ("*𝐋𝐈𝐒𝐓 𝐎𝐅 𝐀𝐂𝐓𝐈𝐕𝐄 𝐔𝐒𝐄𝐑*\n_Note: Sometimes Data will be reset when bot restart!_\n\n*Total Users: _" + _0x599777.length + "_*\n\n*USERNAME ➪ MESSAGE COUNT(s)*\n" + _0x338160 + "\n\n" + Config.caption).trim();
+     const _0x338160 = Object.entries(_0x5af784).map(([_0x4630e3, _0x3a7f93]) => "\t*" + (_0x4630e3?.split("\n").join(" ") || "unknown") + "*  🌟➪  _" + _0x3a7f93 + "_").join("\n");
+     var _0x370694 = ("*Mrsky Md 𝐀𝐂𝐓𝐈𝐕𝐄 𝐔𝐒𝐄𝐑*\n_Note: Sometimes Data will be reset when bot restart!_\n\n*Total Users: _" + _0x599777.length + "_*\n\n*USERNAME ➪ MESSAGE COUNT(s)*\n" + _0x338160 + "\n\n" + Config.caption).trim();
      await _0x1cec94.send(_0x370694, {
        contextInfo: {
          ...(await _0x1cec94.bot.contextInfo("ACTIVE USERS", _0x1cec94.senderName))
@@ -129,9 +129,9 @@ smd(
      const _0x5513e2 = _0x38bc51.map((_0x4cd261, _0xf43b6c) => {
        const _0x24712d = _0x2dd06e[_0x4cd261].commands;
        const _0x48255c = Object.entries(_0x24712d).map(([_0x4d2ffd, _0x534145]) => _0x4d2ffd + " " + (_0x534145 <= 1 ? "" : "(" + _0x534145 + ")")).join(", ");
-       return "*" + (_0xf43b6c + 1) + " -- @" + _0x4cd261.split("@")[0] + "'s ➪ " + _0x2dd06e[_0x4cd261].count + "*  \n *LIST ➪*  _" + _0x48255c.trim() + "_";
+       return "*" + (_0xf43b6c + 1) + " -- @" + _0x4cd261.split("@")[0] + "'s 🌟➪ " + _0x2dd06e[_0x4cd261].count + "*  \n *LIST 🌟➪*  _" + _0x48255c.trim() + "_";
      }).join("\n\n");
-     var _0x17ca33 = ("*LIST OF COMMANDS USED TODAY!*\n_Note: Data will be reset when bot restart!_\n\n*Total Users: _" + _0x38bc51.length + "_*\n*Total Command Used: _" + commandHistory.length + "_*\n\n" + _0x5513e2 + "\n\n" + Config.caption).trim();
+     var _0x17ca33 = ("*MRSKY LIST OF COMMANDS USED TODAY!*\n_Note: Data will be reset when bot restart!_\n\n*Total Users: _" + _0x38bc51.length + "_*\n*Total Command Used: _" + commandHistory.length + "_*\n\n" + _0x5513e2 + "\n\n" + Config.caption).trim();
      await _0x297641.send(_0x17ca33, {
        contextInfo: {
          ...(await _0x297641.bot.contextInfo("HISTORY"))
@@ -150,7 +150,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*BOT CURRENTLY ACTIVE!*";
+     let _0x12a593 = "*MRSKY BOT CURRENTLY ACTIVE!*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
@@ -366,6 +366,34 @@ smd(
      await _0xe6d6e.error(_0xfee6e3 + "\n\ncommand : poetry", _0xfee6e3, false);
    }
  });
+  cmdname: "lydea",
+   category: "ai",
+   use: "[text]",
+   filename: __filename,
+   info: "chat with lydea ai!"
+ }, async (_0xe6d6e, _0x23f786) => {
+   try {
+     if (!_0x23f786) {
+       return await _0xe6d6e.reply("Hi *" + _0xe6d6e.senderName + "*, i'm lydea how can help you?");
+     }
+     const _0x55bb61 = {
+       method: "POST",
+       headers: {
+         "Content-Type": "application/x-www-form-urlencoded"
+       },
+       body: "text=" + encodeURIComponent(_0x23f786) + "&lc=en&key="
+     };
+     const _0x5099c8 = await fetch("https://api.simsimi.vn/v2/simtalk", _0x55bb61);
+     const _0x2c3e12 = await _0x5099c8.json();
+     if (_0x2c3e12.status === "200" && _0x2c3e12.message) {
+       _0xe6d6e.reply(_0x2c3e12.message);
+     } else {
+       _0xe6d6e.reply("*No Responce!*");
+     }
+   } catch (_0xfee6e3) {
+     await _0xe6d6e.error(_0xfee6e3 + "\n\ncommand : gpt", _0xfee6e3, false);
+   }
+ });
  smd({
    cmdname: "ping2",
    alias: ["botstatus", "statusbot", "p2"],
@@ -514,7 +542,7 @@ smd(
      try {
        _0x54710d = await smdBuffer(tmpUrl);
      } catch (_0x40985f) {}
-     await _0x10eae6.reply(("*YOUR TEMPMAIL INFO*\n      \n      \n  *EMAIL:* ➪ " + secmailData[_0x10eae6.sender].email + "\n  *Login:* ➪ " + secmailData[_0x10eae6.sender].login + "\n  *Domain:* ➪ " + secmailData[_0x10eae6.sender].domain + "\n  \n  \n  *USE _" + prefix + "checkmail_ to get latest emails!*\n  *USE _" + prefix + "delmail_ to delete current email!*\n  \n  " + Config.caption + "\n  ").trim(), {
+     await _0x10eae6.reply(("*YOUR TEMPMAIL INFO*\n      \n      \n  *EMAIL:* 🌟➪ " + secmailData[_0x10eae6.sender].email + "\n  *Login:* 🌟➪ " + secmailData[_0x10eae6.sender].login + "\n  *Domain:* 🌟➪ " + secmailData[_0x10eae6.sender].domain + "\n  \n  \n  *USE _" + prefix + "checkmail_ to get latest emails!*\n  *USE _" + prefix + "delmail_ to delete current email!*\n  \n  " + Config.caption + "\n  ").trim(), {
        contextInfo: {
          ...(await _0x10eae6.bot.contextInfo("TEMPMAIL", _0x10eae6.senderName, _0x54710d))
        }
@@ -550,10 +578,10 @@ smd(
          emailContent: _0x587f7f
        });
        if (_0x587f7f) {
-         const _0xa4d211 = "\n  *From* ➪ " + _0x2b6dd0.from + "\n  *Date* ➪  " + _0x2b6dd0.date + "\n  *EMAIL ID* ➪  [" + _0x2b6dd0.id + "]\n  *Subject* ➪  " + _0x2b6dd0.subject + "\n  *Content* ➪  " + _0x587f7f;
+         const _0xa4d211 = "\n  *From* 🌟➪ " + _0x2b6dd0.from + "\n  *Date* 🌟➪  " + _0x2b6dd0.date + "\n  *EMAIL ID* 🌟➪  [" + _0x2b6dd0.id + "]\n  *Subject* 🌟➪  " + _0x2b6dd0.subject + "\n  *Content* 🌟➪  " + _0x587f7f;
          await _0x39080b.reply(_0xa4d211, {
            contextInfo: {
-             ...(await _0x39080b.bot.contextInfo("*EMAIL ➪ " + _0x2b6dd0.id + "*", _0x39080b.senderName, _0x392c45))
+             ...(await _0x39080b.bot.contextInfo("*EMAIL 🌟➪ " + _0x2b6dd0.id + "*", _0x39080b.senderName, _0x392c45))
            }
          }, "smd", _0x39080b);
          ;
