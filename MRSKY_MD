@@ -1,5 +1,5 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/mrsky-cyber/Mrsky-md /root/mrsky-cyber
+RUN git clone https://github.com/mrsky-cyber/mrsky-md /root/mrsky-cyber
 WORKDIR /root/mrsky-cyber
 RUN npm install
 EXPOSE 8000
