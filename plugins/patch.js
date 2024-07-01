@@ -318,7 +318,7 @@ ${menuThemeCommandPrefix} *👑ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *👑ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *🌞ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*Mrsky-𝙼𝙳-𝚅2*
+*𝚆𝙰𝚂𝙸-𝙼𝙳-𝚅2*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
