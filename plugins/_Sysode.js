@@ -17,7 +17,7 @@ smd(
    },
    async (_0x514d3c) => {
      const { exec: _0x1912df } = require("child_process");
-     _0x514d3c.reply("Shutting Down");
+     _0x514d3c.reply("Mrsky Shutting Down");
      _0x1912df("pm2 stop all");
    }
  );
@@ -31,7 +31,7 @@ smd({
   const {
     exec: _0x1912df
   } = require("child_process");
-  _0x514d3c.reply("Restarting");
+  _0x514d3c.reply("You have Restarting Mrsky Md");
   _0x1912df("pm2 restart all");
 });
 smd({
