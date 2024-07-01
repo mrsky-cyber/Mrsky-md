@@ -49,11 +49,6 @@
       "required": false,
       "value": "false"
     },
-    "MONGODB_URI": {
-      "description": "mongodb_uri here",
-      "required": true,
-      "value": ""
-  },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
       "value": "",
