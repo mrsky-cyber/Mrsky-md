@@ -1,7 +1,7 @@
 {
   "name": "Mrsky-md",
   "description": "i am mrsky md whatsapp bot chuddy buddy built in Nodjs to make experience better if any problem. wa.me/255753033342",
-  "logo": "https://github.com/mrsky-cyber/Mrsky-md/blob/main/lib/assets/logo.png?raw=true",
+  "logo": "https://github.com/mrsky-cyber/mrsky-md/blob/main/lib/assets/logo.png?raw=true",
   "keywords": ["MRSKY-MD", "MRSKY", "MRSKY MD BOT","MRSKY MD","mrsky","mrskytech"],
   "success_url": "/",
   "stack": "container",
