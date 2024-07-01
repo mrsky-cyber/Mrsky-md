@@ -51,7 +51,7 @@ try {
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/MrskyTechIMd/, "Astropeda") },
+          { text: update.replace(/SuhailTechIMd/, "Astropeda") },
           { quoted: citel }
         );
         if (
